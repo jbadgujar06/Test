@@ -1,0 +1,76 @@
+body,
+h1,
+h2,
+form,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.head {
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #12c739;
+}
+.header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+.header h1 {
+  font-size: 3em;
+}
+/* section style */
+.section {
+  background: #f9f9f9;
+  padding: 20px 0;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aqua;
+  border: 5px solid black;
+  margin-bottom: 3px;
+}
+.service h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  border-radius: 10px;
+  transition: background 0.4s ease;
+}
+.btn:hover {
+  background: #555;
+  color: #12c739;
+  font-weight: 500;
+}
+.footer {
+  background: #333;
+  color: #555;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
